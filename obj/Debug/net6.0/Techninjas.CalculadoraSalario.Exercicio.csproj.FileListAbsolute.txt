@@ -1,0 +1,15 @@
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\bin\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.exe
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\bin\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.deps.json
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\bin\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.runtimeconfig.json
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\bin\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.dll
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\bin\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.pdb
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.csproj.AssemblyReference.cache
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.AssemblyInfoInputs.cache
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.AssemblyInfo.cs
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.csproj.CoreCompileInputs.cache
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.dll
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\refint\Techninjas.CalculadoraSalario.Exercicio.dll
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.pdb
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\Techninjas.CalculadoraSalario.Exercicio.genruntimeconfig.cache
+D:\Desenv\Techninjas.CalculadoraSalario.Exercicio\obj\Debug\net6.0\ref\Techninjas.CalculadoraSalario.Exercicio.dll
