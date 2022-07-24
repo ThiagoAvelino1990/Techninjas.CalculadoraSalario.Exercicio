@@ -62,6 +62,16 @@ double CalculoIR(double salario)
     return desconto;
 }
 
+//Método CalculaDescontos tem como objetivo calcular todos os descontos do salário
+double CalculaDescontos(double salario)
+{   
+    //Criação da variável
+    var salarioComDescontos = 0.0;
+
+    salarioComDescontos = salario - CalculoIR(salario) - CalculoINSS(salario);
+    return Math.Round(salarioComDescontos,2);
+}
+
 Console.WriteLine("Digite o salário");
 double salario = Convert.ToDouble(Console.ReadLine());
 
@@ -69,6 +79,8 @@ var descontoINSS = CalculoINSS(salario);
 var descontoIR = CalculoIR(salario);
 
 double salarioliquido = salario - descontoIR - descontoINSS;
-Console.WriteLine($"Desconto do IR: {descontoIR}");
-Console.WriteLine($"Desconto do INSS: {descontoINSS}");
+Console.WriteLine($"Desconto do IR: {Math.Round(descontoIR,2)}");
+Console.WriteLine($"Desconto do INSS: {Math.Round(descontoINSS,2)}");
 Console.WriteLine($"Seu salario é {salarioliquido}");
+
+Console.WriteLine($"Salario líquido: {CalculaDescontos(salario)}");
