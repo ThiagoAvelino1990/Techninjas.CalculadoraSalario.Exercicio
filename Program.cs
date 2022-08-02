@@ -84,3 +84,4 @@ Console.WriteLine($"Desconto do INSS: {Math.Round(descontoINSS,2)}");
 Console.WriteLine($"Seu salario é {salarioliquido}");
 
 Console.WriteLine($"Salario líquido: {CalculaDescontos(salario)}");
+
