@@ -1,25 +1,39 @@
 ﻿double CalculoINSS(double salario)
 {
-    double c_salario = salario; 
-    double desconto = 0;
+    double descontoFaixaUm = 90.90;
+    double descontoFaixaDois = 109.38;
+    double descontoFaixaTres = 145.64;
+    double descontoFaixaQuatro = 482.46;
 
-    if (salario <= 1212)
+    if (salario <= 1212.00)
     {
-        desconto = c_salario - (c_salario * 0.925);
+        var descontoVariavel = salario * 0.12;
+        return Math.Round(descontoVariavel, 2);
     }
-    if (salario > 1212.01  && salario <= 2427.35)
+    if (salario > 1212.00  && salario <= 2427.35)
     {
-        desconto = c_salario - (c_salario * 0.91);
+        var descontoFixo = descontoFaixaUm;
+        var descontoVariavel = ((salario - 1212.00) * 0.09) + descontoFixo;
+        return Math.Round(descontoVariavel, 2);
     }
     if (salario >= 2427.36 && salario <= 3641.03)
     {
-        desconto = c_salario - (c_salario * 0.88);
+        var descontoFixo = descontoFaixaUm + descontoFaixaDois;
+        var descontoVariavel = ((salario - 2427.36) * 0.12) + descontoFixo;
+        return Math.Round(descontoVariavel, 2);
     }
     if (salario >= 3641.04 && salario <= 7087.22)
     {
-        desconto = c_salario - (c_salario *  0.86);
+        var descontoFixo = descontoFaixaUm + descontoFaixaDois + descontoFaixaTres;
+        var descontoVariavel = ((salario - 3641.04) * 0.14) + descontoFixo;
+        return Math.Round(descontoVariavel, 2);
     }
-    return desconto;
+    if (salario > 7087.22)
+    {
+        var descontoFixo = descontoFaixaUm + descontoFaixaDois + descontoFaixaTres + descontoFaixaQuatro;
+        return Math.Round(descontoFixo, 2);
+    }
+    return 0;
 }
 double CalculoIR(double salario)
 {
